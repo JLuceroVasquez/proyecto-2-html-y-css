@@ -8,7 +8,7 @@ body {
 }
 
 /*Estilo del texto dentro de etiquetas strong*/
-strong {
+.titulo-destacado {
     color: #3568BF;
 }
 
