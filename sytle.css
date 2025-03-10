@@ -1,13 +1,14 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #005c62;
+    font-family: 'Lora', Georgia, serif;
     font-size: 16px;
     line-height: 1.5;
 }
 /* Estilo por defecto de los enlaces */
 a:link {
-    color: lightskyblue;
+    color: #f2f2f2;
+    font-family: 'Poppins', Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
@@ -19,12 +20,12 @@ a:visited {
 
 /* Estilo cuando paso el cursor sobre los enlaces */
 a:hover {
-    color: yellow;
+    color: #f2f2f2;
     text-decoration: underline;
 }
 
 /* Estilo cuando mantengo presionado el click sobre los enlaces */
 a:active {
-    color: white;
+    color: #f2f2f2;
 }
 
