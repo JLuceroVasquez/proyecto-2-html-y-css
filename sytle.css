@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Estilo por defecto de los enlaces */
+a:link {
+    color: lightskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo cuando visité los enlaces */
+a:visited {
+    color: violet;
+}
+
+/* Estilo cuando paso el cursor sobre los enlaces */
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Estilo cuando mantengo presionado el click sobre los enlaces */
+a:active {
+    color: white;
+}
+
