@@ -8,37 +8,37 @@ body {
 }
 
 /*Estilo del texto dentro de etiquetas strong*/
-.titulo-destacado {
+.tituloNivel1__destacado {
     color: #3568BF;
 }
 
 /*Estilo del texto dentro de etiquetas span*/
-span {
+.tituloNivel1__delimitado {
     border: 3px solid #3568BF;
     padding: 10px;
 }
 
 /* Estilo por defecto de los enlaces */
-a:link {
-    color: #f2f2f2;
+.redSocial__item {
+    color: #3568BF;
     font-family: 'Poppins', Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
 
 /* Estilo cuando visité los enlaces */
-a:visited {
+a:visited { /* visited es una pseudoclase especial que no se puede reemplazar con una clase BEM (--visited) debido a restricciones de seguridad*/
     color: violet;
 }
 
 /* Estilo cuando paso el cursor sobre los enlaces */
-a:hover {
-    color: #f2f2f2;
+.redSocial__item--hover{
     text-decoration: underline;
 }
 
 /* Estilo cuando mantengo presionado el click sobre los enlaces */
-a:active {
-    color: #f2f2f2;
+.redSocial__item--active{
+    color: #3DEFCA;
 }
+
 
