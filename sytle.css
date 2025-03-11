@@ -10,6 +10,8 @@ body {
     font-family: 'Lora', Georgia, serif;
     font-size: 16px;
     line-height: 1.5;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 /*Estilo del texto dentro de etiquetas strong*/
@@ -21,6 +23,26 @@ body {
 .tituloNivel1__delimitado {
     border: 3px solid #3568BF;
     padding: 10px;
+}
+
+/*Estilo del encabezado*/
+.encabezado{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/*Estilo del contenido (main)*/
+.contenido{
+    display:flex;
+    align-items: center;
+}
+
+/*Estilo del pie de pagina*/
+.pieDePagina{
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 /* Estilo por defecto de los enlaces */
