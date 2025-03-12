@@ -38,6 +38,9 @@ body {
     /*Estilo de la sección "presentacion" del contenido (main)*/
     .contenido__presentacion{
         width:615px;
+        display:flex; /*Convertimos la sección contenido__presentación en un contenedor flexible*/
+        flex-direction: column; /*Establecemos como eje principal al eje vertical*/
+        gap: 40px;
     }
 
         /*Estilo del titulo de la sección h1 "presentación"*/
