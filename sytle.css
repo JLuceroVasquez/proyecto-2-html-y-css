@@ -31,7 +31,7 @@ body {
 .contenido{
     display:flex;
     align-items: center;
-    margin:10%; /*Para agregar un margen a todo el contenedor del 10% respecto a los límites de la pantalla*/
+    margin:5%; /*Para agregar un margen a todo el contenedor del 5% respecto a los límites de la pantalla*/
     justify-content: space-between; /*Para añadir espacio entre los items del contenedor, si aún queda espacio libre*/
 }
 
@@ -55,14 +55,28 @@ body {
             font-family: 'Lora', Georgia, serif;
             font-weight: 400;
         }
+       
+        /*Estilo de los enlaces de la sección texto "presentación"*/
+        .contenido__presentacion__redSocial{
+            display:flex;
+            justify-content:space-between;
+        }
 
             /* Estilo por defecto de los enlaces */
             .contenido__presentacion__redSocial__item {
-                color: #3568BF;
+                /*Tamaño, fuente y negrita de la letra*/
                 font-size:24px;
                 font-family: 'Poppins', Helvetica, sans-serif;
-                text-decoration: none;
                 font-weight: 600;
+                /*Decoración y posición de la letra*/
+                color: #3DEFCA;
+                text-decoration: none;
+                text-align: center;
+                /*Color, tamaño y esquinas de la cajita*/
+                background-color: #3568BF;
+                width:280px;
+                padding: 21.5px 0;
+                border-radius: 16px;
             }
 
             /* Estilo cuando visité los enlaces */
@@ -84,8 +98,11 @@ body {
 .pieDePagina{
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:space-evenly;
     margin:2%;
+    font-size:24px;
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600;
 }
 
 
